@@ -20,8 +20,10 @@ body {
   /* border: 2px solid black; */
   display: block;
   width: 50%;
-  margin: 20px 450px;
+  margin: 20px 370px;
+  margin-top: 7px;
   padding: 23px 34px;
+
   color: black;
 }
 .right {
@@ -39,7 +41,7 @@ body {
   bottom: 506px;
   left: 10px;
   margin: -16px 3px;
-  color: orangered;
+  color: purple;
   line-height: 1;
   text-align: center;
 }
@@ -51,16 +53,17 @@ ul li {
   text-decoration: none;
   padding: 10px;
   margin-left: 10px;
+  font-size: 40px;
 }
 ul li a {
-  color: orangered;
+  color: purple;
   text-decoration: none;
 }
 .btn {
   margin: 10px;
   border-radius: 5px;
   font-size: 20px;
-  color: orangered;
+  color: purple;
 }
 li a:hover {
   text-decoration: none;
