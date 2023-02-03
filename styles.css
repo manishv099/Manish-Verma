@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  /* background-image: url(https://media.istockphoto.com/id/1145430255/vector/fruits-and-vegetables-seamless-pattern.jpg?s=612x612&w=0&k=20&c=2ESF5mMwEhqIlYwtShzpOp3O_U_EncGZMpKMKR8_d7o=); */
+  background-image: url(https://img.freepik.com/free-photo/front-view-delicious-chocolate-cake-stand-with-copy-space_23-2148834056.jpg?size=626&ext=jpg&ga=GA1.2.2055036589.1631792830);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  font-family: "Itim", cursive;
+}
+.left img {
+  /* border: 2px solid green; */
+  display: inline-block;
+  position: absolute;
+  top: -20px;
+  left: 10px;
+  margin: 10px;
+  margin-top: 40px;
+}
+.mid {
+  /* border: 2px solid black; */
+  display: block;
+  width: 50%;
+  margin: 20px 370px;
+  margin-top: 7px;
+  padding: 23px 34px;
+
+  color: black;
+}
+.right {
+  /* border: 2px solid blue; */
+  display: inline-block;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  margin: 10px;
+  margin-top: 30px;
+}
+.orgname {
+  display: inline-block;
+  position: absolute;
+  bottom: 506px;
+  left: 10px;
+  margin: 33px 3px;
+  color: orangered;
+  line-height: 1;
+  text-align: center;
+}
+ul li {
+  display: inline-block;
+  list-style: none;
+  list-style-type: none;
+  color: black;
+  text-decoration: none;
+  padding: 10px;
+  margin-left: 10px;
+  font-size: 40px;
+}
+ul li a {
+  color: orangered;
+  text-decoration: none;
+}
+.btn {
+  margin: 10px;
+  border-radius: 5px;
+  font-size: 20px;
+  color: orangered;
+}
+li a:hover {
+  text-decoration: none;
+  color: black;
+}
+.btn:hover {
+  color: grey;
+}
+form {
+  margin: 10px;
+  font-family: "Itim", cursive;
+}
+.form {
+  border: 2px solid red;
+  color: orangered;
+  position: absolute;
+  display: inline-block;
+  padding: 10px;
+  margin-top: 85px;
+  margin-left: 523px;
+}
+.mob {
+  width: 10px;
+  font-size: 10px;
+}
+.email__input {
+  border: none;
+  background: transparent;
+  width: 100%;
+  height: 100%;
+  padding-left: 7px;
+}
+.email__label {
+  color: black;
+  position: absolute;
+  top: 28%;
+  left: 2%;
+  color: rgb(153, 149, 149);
+  transition: 0.5s;
+}
+
+.email__form__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+.form__container {
+  background-color: white;
+  width: 40%;
+  height: 50px;
+  position: relative;
+  margin-top: 197px;
+  margin-right: 10px;
+}
+
+.email__input:focus + .email__label {
+  top: 0.2rem;
+  font-size: 10px;
+}
+
+.email__input:not(:placeholder-shown).email__input:not(:focus) + .email__label {
+  top: 0.2rem;
+  font-size: 10px;
+}
+
+.email__input:focus-visible {
+  outline: none;
+}
+
+.primary__button {
+  background-color: #dc030f;
+  border: 1px solid #dc030f;
+  color: white;
+  padding: 0.8rem 1.2rem;
+  border-radius: 2px;
+  font-size: 15px;
+  letter-spacing: 1px;
+  margin-right: 850px;
+}
