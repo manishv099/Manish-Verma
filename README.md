@@ -1,1 +1,1 @@
-# Manish-Verma
+# Chrome Home page redesigned
